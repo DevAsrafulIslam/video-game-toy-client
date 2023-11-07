@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Car Engine Plug",
+    "image": "https://i.ibb.co/1zpxh3m/car-engin-plug.jpg",
+    "price": 19.99,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Car Air Filter",
+    "image": "https://i.ibb.co/3Y2x0VM/Automobile-Air-Filter.jpg",
+    "price": 29.99,
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "title": "Cools Led Light",
+    "image": "https://i.ibb.co/9VH4DNm/Wilwood-Disc-Brakes-Search-carbon-ceramic-rotors.jpg",
+    "price": 14.99,
+    "rating": 4.8
+  },
+  {
+    "id": 4,
+    "title": "Cools Led Light",
+    "image": "https://i.ibb.co/wYnFBbd/Ferrari-and-its-488-GTB-join-the-turbocharged.jpg",
+    "price": 39.99,
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "title": "Cools Led Light",
+    "image": "https://i.ibb.co/sCB1Jdh/Todd-wants-tires-for-his-truck-He-says-Matt-has-a.jpg    ",
+    "price": 24.99,
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "title": "Cools Led Light",
+    "image": "https://i.ibb.co/kcMpLJP/AGM-Leisure-Batteries-Free-Delivery-AGM-Leisure-Battery-ABS-Batteries.jpg",
+    "price": 34.99,
+    "rating": 4.3
+  }
+]

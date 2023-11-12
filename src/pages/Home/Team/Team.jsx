@@ -8,7 +8,7 @@ const Team = () => {
     fetch("team.json")
       .then((res) => res.json())
       .then((data) => setTeams(data));
-  });
+  }, []);
   return (
     <div className="mt-[130px] text-center">
       <div className="text-center">
@@ -16,7 +16,8 @@ const Team = () => {
         <h2 className="text-[45px]  font-serif">Meet Our Team</h2>
         <p>
           the majority have suffered alteration in some form, by injected
-          humour, or randomised <br /> words which don't look even slightly believable.
+          humour, or randomised <br /> words which don't look even slightly
+          believable.
         </p>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">

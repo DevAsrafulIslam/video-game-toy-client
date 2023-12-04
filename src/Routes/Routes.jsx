@@ -4,7 +4,6 @@ import Home from "../pages/Home/Home/Home";
 import About from "../pages/Home/About/About";
 import Services from "../pages/Home/Services/Services";
 import Contact from "../pages/Contact/Contact";
-import Blog from "../pages/Blog/Blog";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
 import BookService from "../pages/BookService/BookService";
@@ -27,10 +26,6 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services></Services>,
-      },
-      {
-        path: "/blog",
-        element: <Blog></Blog>,
       },
       {
         path: "/contact",

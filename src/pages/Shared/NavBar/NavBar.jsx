@@ -6,7 +6,9 @@ const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
   const handleLogOut = () => {
     logOut()
-      .then(() => {})
+      .then(() => {
+        localStorage.removeItem("car-access-token");
+      })
       .catch((error) => console.log(error));
   };
   const navItems = (
@@ -19,9 +21,6 @@ const NavBar = () => {
       </li>
       <li>
         <Link to="/services">Services</Link>
-      </li>
-      <li>
-        <Link to="/blog">Blog</Link>
       </li>
       <li>
         <Link to="/contact">Contact</Link>

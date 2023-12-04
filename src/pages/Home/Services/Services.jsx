@@ -11,7 +11,7 @@ const Services = () => {
       .then((data) => setServices(data));
   });
   return (
-    <div className="mt-4">
+    <div className="mt-4 ">
       <div className="text-center">
         <h3 className=" text-3xl text-[#FF3811]">Our Service</h3>
         <h2 className="text-5xl">Our Service Area </h2>

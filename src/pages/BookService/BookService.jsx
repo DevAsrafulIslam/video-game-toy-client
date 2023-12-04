@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 
 const BookService = () => {
@@ -7,8 +7,15 @@ const BookService = () => {
   const { title, _id, img } = service;
   const { user } = useContext(AuthContext);
 
+  const navigate = useNavigate();
+
   const handleBookService = (event) => {
     event.preventDefault();
+
+    if (!user) {
+      navigate("/login");
+      return;
+    }
     const form = event.target;
     const name = form.name.value;
     const date = form.date.value;
@@ -42,7 +49,9 @@ const BookService = () => {
   };
   return (
     <form onSubmit={handleBookService} className="card-body">
-      <h2 className="text-center text-2xl">Book Service : {service?.title}</h2>
+      <h2 className="text-center text-2xl text-[#fb1313]">
+        Services : {service?.title}
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="form-control">
           <input
@@ -93,10 +102,15 @@ const BookService = () => {
           //   required
         />
       </div>
-      <div className="form-control mt-6">
+      <div className="form-control mt-6 grid grid-cols-2 gap-2">
         {/* <button className="btn btn-primary">Login</button> */}
         <input
-          className="btn btn-active bg-[#FF3811] text-white"
+          onClick={() => navigate(-1)}
+          className="btn btn-active  bg-[#FF3811] text-white"
+          value="Go Back"
+        />
+        <input
+          className="btn btn-active  bg-[#20a229] text-white"
           type="submit"
           value="Order Confirm"
         />

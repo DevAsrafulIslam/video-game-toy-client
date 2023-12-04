@@ -4,8 +4,8 @@ const TeamCard = ({ team }) => {
   const { id, title, image, skills } = team;
   console.log(team);
   return (
-    <div className="card mt-[50px] w-80 bg-base-100 border">
-      <figure className="px-10 pt-10 ">
+    <div className=" mx-auto px-4 py-4 border rounded-lg overflow-hidden text-center">
+      <figure className=" ">
         <img className="rounded-md w-96" src={image} />
       </figure>
       <div className="card-body items-center text-center">

@@ -15,7 +15,7 @@ const Features = () => {
           believable.
         </p>
       </div>
-      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5  my-8">
+      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-5  my-8">
         <div className="border rounded-md  py-6 ">
           <img className="mx-auto" src={icon1} alt="" />
           <h3 className="mt-4">Expert Team</h3>

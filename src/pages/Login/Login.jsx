@@ -19,11 +19,14 @@ const Login = () => {
     try {
       const { user } = await signIn(email, password);
 
-      const res = await fetch("http://localhost:5000/jwt", {
-        method: "POST",
-        headers: { "Content-Type": "application" },
-        body: JSON.stringify({ email: user.email }),
-      });
+      const res = await fetch(
+        "https://car-doctor-server-mt7aj5g5m-devasrafulislam.vercel.app//jwt",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application" },
+          body: JSON.stringify({ email: user.email }),
+        }
+      );
       const jwt = await res.json();
       // Warning: LocalStorage is  not the best (second best place) to store access token
       localStorage.setItem("access_token", jwt.token);

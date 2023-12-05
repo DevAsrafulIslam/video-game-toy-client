@@ -5,24 +5,30 @@ import book from "../../assets/images/checkout/checkout.png";
 const Bookings = () => {
   const { user } = useContext(AuthContext);
   const [bookings, setBookings] = useState([]);
-  const url = `http://localhost:5000/bookings?email=${user?.email}`;
+  const url = `https://car-doctor-server-mt7aj5g5m-devasrafulislam.vercel.app//bookings?email=${user?.email}`;
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
       .then((data) => setBookings(data));
-  }, [url,{
-    method: "GET",
-    headers:{
-      authorization:`Bearer${localStorage.getItem('car-doctor-token')}`
-    }
-  }]);
+  }, [
+    url,
+    {
+      method: "GET",
+      headers: {
+        authorization: `Bearer${localStorage.getItem("car-doctor-token")}`,
+      },
+    },
+  ]);
 
   const handleDelete = (id) => {
     const proceed = confirm("Are you sure you want to delete this booking");
     if (proceed) {
-      fetch(`http://localhost:5000/bookings/${id}`, {
-        method: "DELETE",
-      })
+      fetch(
+        `https://car-doctor-server-mt7aj5g5m-devasrafulislam.vercel.app//bookings/${id}`,
+        {
+          method: "DELETE",
+        }
+      )
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
@@ -36,11 +42,14 @@ const Bookings = () => {
   };
 
   const handleBookingConfirm = (id) => {
-    fetch(`http://localhost:5000/bookings/${id}`, {
-      method: "PATCH",
-      headers: { "Content-Type": "application/json" },
-      json: JSON.stringify({ status: "confirm" }),
-    })
+    fetch(
+      `https://car-doctor-server-mt7aj5g5m-devasrafulislam.vercel.app//bookings/${id}`,
+      {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        json: JSON.stringify({ status: "confirm" }),
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

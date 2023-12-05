@@ -10,7 +10,12 @@ const Bookings = () => {
     fetch(url)
       .then((res) => res.json())
       .then((data) => setBookings(data));
-  }, [url]);
+  }, [url,{
+    method: "GET",
+    headers:{
+      authorization:`Bearer${localStorage.getItem('car-doctor-token')}`
+    }
+  }]);
 
   const handleDelete = (id) => {
     const proceed = confirm("Are you sure you want to delete this booking");

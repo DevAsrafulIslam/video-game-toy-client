@@ -10,7 +10,7 @@ const Features = () => {
         <h4 className="text-[#FF3811] font-bold ">Core Features</h4>
         <h2 className="text-[45px]  font-serif">Why Choose Us</h2>
         <p>
-          the majority have suffered alteration in some form, by injected
+          The majority have suffered alteration in some form, by injected
           humour, or randomised <br /> words which don't look even slightly
           believable.
         </p>

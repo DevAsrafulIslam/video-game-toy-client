@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/logo.svg";
+// import logo from "../../../assets/logo.svg";
+import logo from "../../../assets/images/banner/logo1.png";
 import { useContext } from "react";
 import { AuthContext } from "../../../providers/AuthProvider";
 const NavBar = () => {
@@ -42,7 +43,7 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar container mx-auto bg-base-100 h-20 my-3 ">
+    <div className="navbar container mx-auto bg-base-100 h-20 my-0 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -69,7 +70,10 @@ const NavBar = () => {
           </ul>
         </div>
         <Link to="/" className="">
-          <img src={logo} alt="" />
+          {/* <img className="h-8" src={logo} alt="" /> */}
+          <h1 className="text-2xl text-red-700 md:text-4xl font-thin">
+            VIDEO.<span className="text-white">games</span>{" "}
+          </h1>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

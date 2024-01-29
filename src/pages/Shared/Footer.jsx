@@ -1,56 +1,103 @@
-import logo from "../../assets/logo.svg";
+import React from "react";
+
+import logo from "../../assets/images/banner/logo1.png";
 const Footer = () => {
   return (
-    <footer className="footer p-10 mt-[130px] h-[50vh] bg-neutral text-neutral-content">
-      <aside>
-        <div>
-          <img src={logo} alt="" />
+    <div className="">
+      <div className=" bg-[#374151] text-white  ">
+        <div className="container mx-auto pt-14 pb-12 grid grid-cols-12 gap-5 md:gap-10 justify-between md:justify-start">
+          {/* about */}
+          <div className=" space-y-3 md:space-y-6 text-center xl:text-left col-span-12 xl:col-span-4">
+            <h3 className="text-xl font-medium">Contact Us</h3>
+            <p className="text-gray-400">
+              Hi, we are always open for cooperation and suggestions, contact us
+              in one of the ways below:
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <div className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
+                <p className="uppercase text-xs text-gray-400">PHONE NUMBER</p>
+                <p className="text-sm">01999870111</p>
+              </div>
+              <div className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
+                <p className="uppercase text-xs text-gray-400">EMAIL ADDRESS</p>
+                <p className="text-sm">asrafulislam.dev@gmail.com</p>
+              </div>
+              <div className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
+                <p className="uppercase text-xs text-gray-400">OUR LOCATION</p>
+                <p className="text-sm">715 Fake Street, New York 10021 USA</p>
+              </div>
+
+              <div className="space-y-1 bg-gray-600 py-4 px-3 xl:p-0 xl:bg-transparent rounded xl:rounded-none w-full sm:w-[calc(100%/2-10px)] lg:w-[calc(100%/4-12px)] xl:w-[calc(100%/2-30px-1px)]">
+                <p className="uppercase text-xs text-gray-400">WORKING HOURS</p>
+                <p className="text-sm">Mon-Sat 10:00 AM - 7:00 PM</p>
+              </div>
+            </div>
+          </div>
+          {/* about end */}
+
+          {/* information */}
+          <div className="space-y-3 md:space-y-6 text-center md:text-start col-span-6 md:col-span-3 xl:col-span-2">
+            <h3 className="text-xl font-medium">Information</h3>
+            <div className="flex flex-col gap-3 text-gray-400">
+              <p>Delivery Information</p>
+              <p>Privacy Policy</p>
+              <p>Brands</p>
+              <p>Contact Us</p>
+              <p>Returns</p>
+              <p>Site Map</p>
+            </div>
+          </div>
+          {/* information end */}
+          {/* my account  */}
+
+          <div className="space-y-3 md:space-y-6 text-center md:text-start col-span-6 md:col-span-3 xl:col-span-2">
+            <h3 className="text-xl font-medium">My Account</h3>
+            <div className="flex flex-col gap-3 text-gray-400">
+              <p>Store Location</p>
+              <p>Order History</p>
+              <p>Wish List</p>
+              <p>Newsletter</p>
+              <p>Special Offers</p>
+            </div>
+          </div>
+          {/* my account end */}
+          {/* newsletter */}
+
+          <div className="space-y-3 md:space-y-6 text-center xl:text-left col-span-12 xl:col-span-4">
+            <h3 className="text-xl font-medium">Newsletter</h3>
+            <div className=" space-y-3">
+              <p className="text-gray-400">
+                Enter your email address below to subscribe to our newsletter
+                and keep up to date with discounts and special offers.
+              </p>
+              <div className="flex items-center justify-center md:justify-start gap-x-3 max-w-lg w-full">
+                <input
+                  className="bg-gray-600 border-2 w-full border-gray-600 px-3 py-2 rounded focus:ring-0 focus:border-gray-600 focus:bg-gray-700 focus:outline-none placeholder-gray-400"
+                  type="gmail"
+                  placeholder="email@example.com"
+                />
+                <button className="border-none bg-[#c67b0a] text-white py-2 px-5 border-2 border-brand rounded">
+                  Subscribe
+                </button>
+              </div>
+              <p className="text-gray-400">Follow me on social networks</p>
+            </div>
+          </div>
+          {/* newsletter end */}
         </div>
-        <p>
-          ACME Industries Ltd.
-          <br />
-          Providing reliable tech since 1992
+      </div>
+      <div className="container py-5 flex items-center justify-center md:justify-between flex-wrap gap-5">
+        <p className="text-sm text-gray-400 md:text-start text-center">
+          © 2023 All Rights Reserved. Developed by
+          <a
+            className="hover:underline text-brand whitespace-nowrap"
+            href="https://github.com/DevAsrafulIslam"
+          >
+            <span className=" ml-2 text-[#ecba04]"> Asraful Islam</span>
+          </a>
         </p>
-      </aside>
-      <nav>
-        <header className="footer-title">Social</header>
-        <div className="grid grid-flow-col gap-4">
-          <a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              className="fill-current"
-            >
-              <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-            </svg>
-          </a>
-          <a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              className="fill-current"
-            >
-              <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-            </svg>
-          </a>
-          <a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              className="fill-current"
-            >
-              <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-            </svg>
-          </a>
-        </div>
-      </nav>
-    </footer>
+      </div>
+    </div>
   );
 };
 

@@ -1,0 +1,160 @@
+[
+  {
+    "name": " Breath of the Wild",
+    "id": "1",
+    "price": 69.99,
+    "image": "https://i.ibb.co/hmgs8n7/Screenshot-2024-01-29-at-2-43-26-PM.png",
+    "rating": 4.9,
+    "shortDescription": "Embark on an epic journey in the vast open world of Hyrule."
+  },
+  {
+    "name": " (PUBG)",
+    "id": "2",
+    "price": 29.99,
+    "image": "https://i.ibb.co/25MMH6F/Screenshot-2024-01-29-at-2-16-08-PM.png",
+    "rating": 4.7,
+    "shortDescription": "Experience the thrill of intense battles in the PC/console version of PUBG."
+  },
+  {
+    "name": "Call of Duty",
+    "id": "3",
+    "price": 59.99,
+    "image": "https://i.ibb.co/RcbMkhC/Screenshot-2024-01-29-at-2-18-29-PM.png",
+    "rating": 4.6,
+    "shortDescription": "Experience the latest installment in the iconic Call of Duty series."
+  },
+
+  {
+    "name": "Garena Free Fire",
+    "id": "4",
+    "price": 0.0,
+    "image": "https://i.ibb.co/TvZK5H6/Screenshot-2024-01-29-at-2-17-21-PM.png",
+    "rating": 4.3,
+    "shortDescription": "Survive and be the last one standing in the fast-paced world of Free Fire."
+  },
+  {
+    "name": "Free Fire MAX",
+    "id": "5",
+    "price": 0.0,
+    "image": "https://i.ibb.co/PQ7J5Kz/Screenshot-2024-01-29-at-2-18-54-PM.png",
+    "rating": 4.4,
+    "shortDescription": "Enhanced graphics and intense battles in the upgraded Free Fire MAX."
+  },
+
+  {
+    "name": "Fortnite",
+    "id": "6",
+    "price": 0.0,
+    "image": "https://i.ibb.co/3kW0hFy/Screenshot-2024-01-29-at-2-44-35-PM.png",
+    "rating": 4.5,
+    "shortDescription": "Join the battle to be the last one standing in this iconic battle royale."
+  },
+  {
+    "name": "Assassin's Creed Valhalla",
+    "id": "7",
+    "price": 59.99,
+    "image": "https://i.ibb.co/Rb4z3kz/Screenshot-2024-01-29-at-2-16-50-PM.png",
+    "rating": 4.5,
+    "shortDescription": "Join Eivor in the Viking Age quest for glory and power."
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "id": "8",
+    "price": 49.99,
+    "image": "https://i.ibb.co/pQ7LW3q/Screenshot-2024-01-29-at-2-17-05-PM.png",
+    "rating": 3.8,
+    "shortDescription": "Immerse yourself in the dystopian future of Night City."
+  },
+
+  {
+    "name": "PUBG Mobile",
+    "id": "9",
+    "price": 0.0,
+    "image": "https://i.ibb.co/7Wz3ndb/Screenshot-2024-01-29-at-2-18-05-PM.png",
+    "rating": 4.5,
+    "shortDescription": "Battle for survival in the original battle royale game - PUBG Mobile."
+  },
+
+  {
+    "name": "Red Dead Redemption 2",
+    "id": "10",
+    "price": 39.99,
+    "image": "https://i.ibb.co/FH0hphr/Screenshot-2024-01-29-at-2-16-19-PM.png",
+    "rating": 4.7,
+    "shortDescription": "Experience the life of an outlaw in the American Wild West."
+  },
+
+  {
+    "name": "Minecraft",
+    "id": "12",
+    "price": 29.99,
+    "image": "https://i.ibb.co/n86nXsL/Screenshot-2024-01-29-at-2-43-43-PM.png",
+    "rating": 4.8,
+    "shortDescription": "Build, explore, and survive in the pixelated world of Minecraft."
+  },
+
+  {
+    "name": " Wild Hunt",
+    "id": "13",
+    "price": 29.99,
+    "image": "https://i.ibb.co/ZKvWnYk/Screenshot-2024-01-29-at-2-43-08-PM.png",
+    "rating": 4.9,
+    "shortDescription": "Embark on Geralt's quest in this critically acclaimed RPG."
+  },
+  {
+    "name": "Call of Duty",
+    "id": "14",
+    "price": 0.0,
+    "image": "https://i.ibb.co/RcbMkhC/Screenshot-2024-01-29-at-2-18-29-PM.png",
+    "rating": 4.3,
+    "shortDescription": "Engage in intense battle royale action in the Call of Duty universe."
+  },
+  {
+    "name": "Overwatch",
+    "id": "15",
+    "price": 39.99,
+    "image": "https://i.ibb.co/bvmkT1y/Screenshot-2024-01-29-at-2-42-30-PM.png",
+    "rating": 4.4,
+    "shortDescription": "Join the fight for the future in this team-based shooter."
+  },
+  {
+    "name": "Final Fantasy VII Remake",
+    "id": "16",
+    "price": 59.99,
+    "image": "https://i.ibb.co/BqybsHT/Screenshot-2024-01-29-at-2-16-28-PM.png",
+    "rating": 4.8,
+    "shortDescription": "Relive the classic RPG with stunning modern visuals."
+  },
+  {
+    "name": "Among Us",
+    "id": "17",
+    "price": 4.99,
+    "image": "https://i.ibb.co/X7q2dM6/Screenshot-2024-01-29-at-2-57-43-PM.png",
+    "rating": 4.7,
+    "shortDescription": "Unmask the impostors in this social deduction multiplayer game."
+  },
+  {
+    "name": "Apex Legends",
+    "id": "18",
+    "price": 0.0,
+    "image": "https://i.ibb.co/7vJKpjh/Screenshot-2024-01-29-at-2-45-21-PM.png",
+    "rating": 4.6,
+    "shortDescription": "Become a legend in this fast-paced battle royale set in the Titanfall universe."
+  },
+  {
+    "name": "League of Legends",
+    "id": "19",
+    "price": 0.0,
+    "image": "https://i.ibb.co/3h1J4PD/Screenshot-2024-01-29-at-2-42-02-PM.png",
+    "rating": 4.8,
+    "shortDescription": "Conquer the Rift with your chosen champion in this iconic MOBA."
+  },
+  {
+    "name": "Survival Apocalypse",
+    "id": 20,
+    "price": 29.99,
+    "image": "https://i.ibb.co/VwrwgHb/Screenshot-2024-01-29-at-3-01-51-PM.png",
+    "rating": 4.2,
+    "shortDescription": "Navigate a post-apocalyptic world, scavenge for resources, and survive against all odds."
+  }
+]

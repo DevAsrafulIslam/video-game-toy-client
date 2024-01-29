@@ -6,17 +6,19 @@ import Products from "../Products/Products";
 import Services from "../Services/Services";
 import Team from "../Team/Team";
 import Testimonial from "../Testimonial/Testimonial";
+import VideoGames from "../VideoGames/VideoGames";
 
 const Home = () => {
   return (
-    <div className="container mx-auto">
+    <div className="">
       <Banner></Banner>
-      <About></About>
-      <Services></Services>
-      <Products></Products>
-      <Team></Team>
-      <Features></Features>
-      <Testimonial></Testimonial>
+      <VideoGames />
+      {/* <About></About> */}
+      {/* <Services></Services> */}
+      {/* <Products></Products> */}
+      {/* <Team></Team> */}
+      {/* <Features></Features> */}
+      {/* <Testimonial></Testimonial> */}
     </div>
   );
 };

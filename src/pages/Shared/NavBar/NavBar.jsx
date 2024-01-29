@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import logo from "../../../assets/logo.svg";
+
 import logo from "../../../assets/images/banner/logo1.png";
 import { useContext } from "react";
 import { AuthContext } from "../../../providers/AuthProvider";
@@ -72,7 +72,7 @@ const NavBar = () => {
         <Link to="/" className="">
           {/* <img className="h-8" src={logo} alt="" /> */}
           <h1 className="text-2xl text-red-700 md:text-4xl font-thin">
-            VIDEO.<span className="text-white">games</span>{" "}
+            VIDEO.<span className="text-cyan-400">games</span>{" "}
           </h1>
         </Link>
       </div>

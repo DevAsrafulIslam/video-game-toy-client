@@ -1,4 +1,9 @@
-import { FaFacebook, FaGithub, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaInstagramSquare,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const TeamCard = ({ team }) => {
   const { id, title, image, skills } = team;

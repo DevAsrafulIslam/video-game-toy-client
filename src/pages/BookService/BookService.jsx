@@ -52,9 +52,6 @@ const BookService = () => {
   };
   return (
     <form onSubmit={handleBookService} className="card-body">
-      <h2 className="text-center text-2xl text-[#fb1313]">
-        Services : {service?.title}
-      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="form-control">
           <input

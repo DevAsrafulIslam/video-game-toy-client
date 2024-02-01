@@ -15,16 +15,9 @@ const VideoGames = () => {
         <div className="text-start">
           <h2 className="text-[20px]  font-serif">New Arrivals</h2>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mx-auto  my-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-8 my-8">
           {gameProducts.map((gameProduct) => (
-            <div key={gameProduct.id} product={gameProduct}>
-              <div className="border w-9/12 my-2 mx-auto">
-                <img className="" src={gameProduct.image} alt="" />
-                <p>{gameProduct.name}</p>
-                <p>Price: {gameProduct.price}</p>
-                <p>Rating: {gameProduct.rating}</p>
-              </div>
-            </div>
+            <GameCart key={gameProduct.id} product={gameProduct}></GameCart>
           ))}
         </div>
         <div className=" mx-auto mb-[50px] items-center">

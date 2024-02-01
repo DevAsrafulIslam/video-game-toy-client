@@ -20,9 +20,7 @@ const NavBar = () => {
       <li>
         <Link to="/about">About</Link>
       </li>
-      <li>
-        <Link to="/services">Services</Link>
-      </li>
+
       <li>
         <Link to="/contact">Contact</Link>
       </li>
@@ -43,7 +41,7 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar container mx-auto bg-base-100 h-20 my-0 ">
+    <div className="navbar sticky z-50 top-0 container mx-auto bg-base-100 h-20 my-0 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -78,11 +76,6 @@ const NavBar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
-      </div>
-      <div className="navbar-end">
-        <button className="btn btn-outline border-[#FF3811] text-[#FF3811]">
-          Appointment
-        </button>
       </div>
     </div>
   );

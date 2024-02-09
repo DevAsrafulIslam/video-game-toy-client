@@ -15,9 +15,8 @@ const Team = () => {
         <h4 className="text-[#FF3811] font-bold ">Team</h4>
         <h2 className="text-[45px]  font-serif">Meet Our Team</h2>
         <p>
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised <br /> words which don't look even slightly
-          believable.
+          Experienced, results-oriented marketer specializing in digital
+          strategy and content creation.
         </p>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">

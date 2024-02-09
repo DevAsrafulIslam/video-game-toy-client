@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../../assets/images/banner/logo1.png";
 const Footer = () => {
   return (
-    <div className="">
+    <div className="mt-8">
       <div className=" bg-[#374151] text-white  ">
         <div className="container mx-auto pt-14 pb-12 grid grid-cols-12 gap-5 md:gap-10 justify-between md:justify-start">
           {/* about */}

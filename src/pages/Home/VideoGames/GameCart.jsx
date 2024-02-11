@@ -4,9 +4,6 @@ const GameCart = ({ product }) => {
   const { name, id, title, image, price, rating } = product;
   return (
     <div className="border ">
-      {/* <button className="absolute text-white bg-sky-500 px-4 py-2 rounded-lg top-[50%] left-[35%]">
-        Buy Now
-      </button> */}
       <img className="w-full  mx-auto" src={image} alt="" />
       <div className="flex text-start items-center justify-around">
         {name}
